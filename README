@@ -1,0 +1,9 @@
+Makefile	for building the loadable kernel module, dds.o
+		change INCDIR
+
+Makefile.user	for building the user application, freq
+		change ROOTDIR and LIBCDIR
+
+Type 'make' to build dds.o
+Type 'make -f Makefile.user' to build freq
+
